@@ -1,0 +1,24 @@
+{
+  "name": "cine",
+  "version": "0.1.0",
+  "description": "Frames dispanser",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "animation",
+    "frames",
+    "framerates"
+  ],
+  "author": "Vladimir Morulus <vladimirmorulus@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morulus/cine.git"
+  },
+  "bugs": {
+    "url": "https://github.com/morulus/cine/issues"
+  },
+  "homepage": "https://github.com/morulus/cine#readme"
+}
