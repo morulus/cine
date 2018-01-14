@@ -1,6 +1,6 @@
 {
   "name": "cine",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Frames dispanser",
   "main": "index.js",
   "scripts": {
@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/morulus/cine/issues"
   },
-  "homepage": "https://github.com/morulus/cine#readme"
+  "homepage": "https://github.com/morulus/cine#readme",
+  "dependencies": {
+    "lodash.throttle": "^4.1.1"
+  }
 }

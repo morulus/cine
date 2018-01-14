@@ -1,4 +1,4 @@
-const throttle = require('lodash/throttle');
+const throttle = require('lodash.throttle');
 
 function isArray(arrayLike) {
   return typeof arrayLike === 'object' &&
@@ -42,7 +42,7 @@ module.exports = function animate(frames, delay = 0, onFinish) {
           onFinish(diff);
         }
       }
-      return compile(frames, i);
+      return compile(frames[i]);
     } : () => {
       i++;
       if (i >= frames.length) {
