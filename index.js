@@ -39,7 +39,7 @@ module.exports = function animate(frames, delay = 0, onFinish) {
         initTime = currentTime;
         i = 0;
         if (onFinish) {
-          onFinish(diff);
+          onFinish();
         }
       }
       return compile(frames[i]);
@@ -47,6 +47,9 @@ module.exports = function animate(frames, delay = 0, onFinish) {
       i++;
       if (i >= frames.length) {
         i = 0;
+        if (onFinish) {
+          onFinish();
+        }
       }
       return compile(frames[i]);
     }
