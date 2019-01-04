@@ -40,7 +40,7 @@ API
 
 - `interval` Ms between frames. If you do not specify value, then frame will change only on request.
 
-- `onFinisj` Frequency end handler. Will be invoked at last frame.
+- `onFinish` End handler. Will be invoked at last frame.
 
 License
 --
