@@ -1,6 +1,6 @@
 {
   "name": "cine",
-  "version": "0.3.0-beta",
+  "version": "0.3.0",
   "description": "Frames dispanser",
   "main": "index.js",
   "scripts": {
